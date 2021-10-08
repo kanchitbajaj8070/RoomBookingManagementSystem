@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="355.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DateTimeSelectController">
+   <children>
+      <AnchorPane fx:id="PANE_2" onKeyPressed="#available_room_show_keyEvent" prefHeight="370.0" prefWidth="374.0" style="-fx-background-color: #333645;">
+         <children>
+            <Label fx:id="DATE_LABEL" alignment="CENTER" contentDisplay="CENTER" layoutX="-7.0" layoutY="1.0" prefHeight="27.0" prefWidth="433.0" style="-fx-background-color: transparent;" styleClass="iphone-toolbar" stylesheets="@../css/style.css" text="Select Date" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="TIME_LABEL" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="178.0" prefHeight="27.0" prefWidth="433.0" style="-fx-background-color: transparent;" styleClass="iphone-toolbar" stylesheets="@../css/style.css" text="Select Time" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="available_room_button" alignment="CENTER" contentDisplay="BOTTOM" layoutX="73.0" layoutY="296.0" mnemonicParsing="false" onMousePressed="#available_room_show" prefHeight="45.0" prefWidth="287.0" style="-fx-border-color: #00a2d3;" styleClass="button-leftpane" stylesheets="@../css/newStyles.css" text="Show All Available Rooms" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Cooper Black" size="18.0" />
+               </font>
+               <effect>
+                  <Glow level="0.29" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ProgressIndicator fx:id="progreesIndicator" layoutY="127.0" opacity="0.99" prefHeight="45.0" prefWidth="430.0" style="-fx-progress-color: #00a2d3;" AnchorPane.bottomAnchor="183.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
+               <effect>
+                  <DropShadow height="0.0" radius="3.195" width="14.78" />
+               </effect>
+            </ProgressIndicator>
+            <JFXDatePicker fx:id="DATE_PICKER" defaultColor="#23cfff" layoutX="132.0" layoutY="83.0" prefHeight="27.0" prefWidth="166.0" promptText="Select Date" stylesheets="@../css/newStyles.css" />
+            <ComboBox fx:id="TIME_SLOT_BOX" layoutX="120.0" layoutY="226.0" prefHeight="43.0" prefWidth="186.0" promptText="Select Time Slot" styleClass="choice-box" stylesheets="@../css/newStyles.css" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
