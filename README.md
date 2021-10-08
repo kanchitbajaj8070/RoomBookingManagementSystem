@@ -10,4 +10,24 @@ DASHBOARD PAGE
 
 PDF OF BOOKINGS GENERATED PAGE
 
-![DASHBOARD PAGE](https://github.com/kanchitbajaj8070/RoomBookingManagementSystem/blob/master/src/main/resources/images/PdfOfBooking.PNG)
+![PDF PAGE](https://github.com/kanchitbajaj8070/RoomBookingManagementSystem/blob/master/src/main/resources/images/PdfOfBooking.PNG)
+
+
+
+BOOK ROOM  DIALOG 
+
+
+![ROOM BOOK PAGE](https://github.com/kanchitbajaj8070/RoomBookingManagementSystem/blob/master/src/main/resources/images/bookroomScreenshot.PNG)
+
+
+DATE SELECT DIALOG
+
+![DATE SELECT PAGE](https://github.com/kanchitbajaj8070/RoomBookingManagementSystem/blob/master/src/main/resources/images/dateSelectScreenshot.PNG)
+
+
+ROOM SELECT DIALOG 
+
+
+![ROOM SELECT PAGE](https://github.com/kanchitbajaj8070/RoomBookingManagementSystem/blob/master/src/main/resources/images/roomSelection.PNG)
+
+
