@@ -19,7 +19,6 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import mail.Mail;
 
 import java.net.URL;
 import java.sql.*;
@@ -276,7 +275,6 @@ public void sign_in_action()
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                Mail.send("kanchitbajaj8070@gmail.com","hhtpzdbpwrtmxwsz",email,"New password for bookIT","your new password is "+new_random_pass+" .Kindly change it at the earliest from change password feature in app");
             }});
 
     }
